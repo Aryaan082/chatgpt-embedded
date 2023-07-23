@@ -40,10 +40,10 @@ module.exports = {
         { from: "images" },
         { from: "scripts" },
         {
-          from: "manifest.json",
+          from: "service_workers",
         },
         {
-          from: "background.js",
+          from: "manifest.json",
         },
       ],
     }),
